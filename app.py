@@ -4,6 +4,7 @@
 import streamlit as st
 from transformers import pipeline
 
+
 # Function part
 def img2text(url):
     image_to_text_model = pipeline("image-to-text", model="Salesforce/blip-image-captioning-base")
