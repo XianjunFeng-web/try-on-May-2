@@ -1,5 +1,3 @@
-
-
 # Program title: Storytelling App
 
 # Import part
@@ -46,4 +44,4 @@ if uploaded_file is not None:
     if st.button("Play Audio"):
         audio_array = audio_data["audio"]
         sample_rate = audio_data["sampling_rate"]
-        st.audio(audio_array, sample_rate=sample_rate)
+        st.audio(audio_array, sample_rate=sample_rate) # Fixed the parenthesis here
